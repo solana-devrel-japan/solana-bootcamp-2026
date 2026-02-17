@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(solana --version:*)",
+      "Bash(anchor:*)",
+      "Bash(rustc:*)",
+      "Bash(cargo-build-sbf:*)",
+      "Bash(solana-install update:*)",
+      "Bash(~/.local/share/solana/install/active_release/bin/solana-install update:*)",
+      "Bash(/Users/ytakahashi/.local/share/solana/install/active_release/bin/agave-install update:*)",
+      "Bash(rm:*)",
+      "Bash(cat:*)",
+      "Bash(anchor test:*)",
+      "Bash(yarn remove:*)",
+      "Bash(yarn add:*)",
+      "Bash(xcode-select:*)",
+      "Bash(sudo xcodebuild:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
