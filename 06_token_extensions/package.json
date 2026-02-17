@@ -1,0 +1,19 @@
+{
+  "name": "solana-extension-hands-on",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "metadata": "npx tsx src/metadata.ts",
+    "transfer-fee": "npx tsx src/transfer-fee.ts",
+    "permanent-delegate": "npx tsx src/permanent-delegate.ts"
+  },
+  "dependencies": {
+    "@solana-program/system": "^0.11.0",
+    "@solana-program/token-2022": "^0.9.0",
+    "@solana/kit": "^6.0.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}
