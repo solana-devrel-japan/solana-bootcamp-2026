@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# 秘密鍵を含むファイル（Mainnet では使用しないこと）
+client.json
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
