@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+client.json
+.env
+.env.local
+dist
+*.tsbuildinfo
+.next
+out
+build
+.yarn
+.verified-transactions.json
+*.pem
