@@ -33,7 +33,7 @@ app.get('/free', (req: Request, res: Response) => {
 });
 
 app.get('/premium', (req: Request, res: Response) => {
-    res.json({ message: 'This is a premium endpoint accessible to everyone.' });
+    res.json({ message: 'This is a premium endpoint accessible after payment is completed.' });
 });
 
 app.listen(3001, () => {
