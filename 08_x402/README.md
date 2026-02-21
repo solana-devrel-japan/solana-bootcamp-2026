@@ -26,7 +26,7 @@ cp .env.example .env.local
 pnpm dev
 ```
 
-`http://localhost:3000` でアプリを開き、`/content/cheap`（$0.01）、`/content/expensive`（$0.25）、`/content/premium`（$1.00）などの有料コンテンツにアクセスできます。`.env.local` で受取先アドレスやネットワークを設定してください。
+`http://localhost:3000` でアプリを開き、`/content/cheap`（$0.01）、`/content/expensive`（$0.25）、`/content/premium`（$1.00）などの有料コンテンツにアクセスできます。`.env.local` の `NEXT_PUBLIC_RECEIVER_ADDRESS` に受取先アドレス、`NEXT_PUBLIC_NETWORK` にネットワークを設定してください。
 
 ### 2. x402-demo（ハンズオン）
 

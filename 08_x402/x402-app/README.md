@@ -190,7 +190,7 @@ The template uses sensible defaults, but you can customize by creating a `.env.l
 
 ```bash
 # Your Solana wallet address (where payments go)
-NEXT_PUBLIC_WALLET_ADDRESS=your_solana_address_here
+NEXT_PUBLIC_RECEIVER_ADDRESS=your_solana_address_here
 
 # Network (solana-devnet or solana-mainnet-beta)
 NEXT_PUBLIC_NETWORK=solana-devnet
